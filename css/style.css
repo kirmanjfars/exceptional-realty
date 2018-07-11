@@ -4,9 +4,11 @@ p{
 }
 
 figcaption{
-    font-weight: normal;
-    font-size: 0.75em;
+    font-weight: normal 0.75em Georgia, 'Times New Roman', Times, serif;
     line-height: 1.5em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    
+}
+
+.milk-text{
+    font: bold 2.6em  'Times New Roman', Times, serif;
+    text-shadow: 0 2px 3px black;
 }
