@@ -1,3 +1,8 @@
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 p{
     font-size: 1em;
     line-height: 1.5em;
@@ -15,9 +20,12 @@ figcaption{
     text-shadow: 0 2px 3px black;
     color: white;
 }
+nav{
+  width: 100%;
+}
 
 #logo{
-    background: aqua;
+    background: white;
 }
 
 
@@ -44,3 +52,76 @@ figcaption{
   #details a:active {
     color: red;
   }
+
+  [class*='wraper']{
+    width: 80%;
+    margin: 0 auto;
+    background-color: #ccc;
+  }
+
+  .wraperr{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .wraperrr{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .col{
+    width: 32%;
+  }
+
+  .coll{
+    width: 66%;
+  }
+
+  .colll{
+    background-color: #ccc;
+    position: relative;
+  }
+
+  .first{
+    margin-left: 0%;
+  }
+
+  [class*='col']{
+    margin-left: 2%;
+  }
+
+  #social{
+    position: fixed;
+    top: 50%;
+    background-color: rgba(184, 182, 182, 0.1);
+    right: 0;
+  }
+
+  #social a{
+    padding: 1%;
+    display: block;
+    text-decoration: none; 
+    position: static;
+    color: black; 
+    padding-top: 10px;
+  }
+
+  header{
+    position: fixed;
+    top: 0;
+    left: 10%;
+    width: 80%;
+    margin: 0 auto;
+    z-index: 1;
+    background-color: white;
+  }
+
+/*Media */
+
+img, video {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+ 
+}
